@@ -1,0 +1,12 @@
+Package: vaRBinning
+Type: Package
+Title: Provides functions and methods to perform weight of evidence binning and other variable exploration/treatment methods for use with logistic regression models.
+Version: 1.0.0
+Author: James Woodcock
+Maintainer: jlwodocock95@gmail.com
+Description: Provides functions and methods to perform weight of evidence binning and other variable exploration/treatment methods for use with logistic regression models.
+    Particularly, this package provides a method of assigning weight of evidence values or factor values based on binnings which can be defined by the user for either continuous or categorical features.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
