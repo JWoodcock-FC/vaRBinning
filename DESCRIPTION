@@ -1,12 +1,18 @@
 Package: vaRBinning
 Type: Package
-Title: Provides functions and methods to perform weight of evidence binning and other variable exploration/treatment methods for use with logistic regression models.
-Version: 1.0.0
-Author: James Woodcock
-Maintainer: jlwodocock95@gmail.com
-Description: Provides functions and methods to perform weight of evidence binning and other variable exploration/treatment methods for use with logistic regression models.
-    Particularly, this package provides a method of assigning weight of evidence values or factor values based on binnings which can be defined by the user for either continuous or categorical features.
-License: MIT
+Title: Variable binning tools for credit risk.
+Version: 0.1
+Authors@R: c(person("James", "Woodcock", role = c("aut", "cre"),
+                     email = "james.woodcock@fundingcircle.com"))
+Author: person('James', 'Woodcock', email = 'james.woodcock@fundingcircle.com',
+	role = c('aut', 'cre'))
+Description: Variable binning tools for credit risk.
+License: None
 Encoding: UTF-8
 LazyData: true
+Depends:
+	dplyr (>= 0.7.4),
+	ggplot2 (>= 2.2.1),
+	dbplyr (>= 1.2.2)
 RoxygenNote: 6.1.1
+
