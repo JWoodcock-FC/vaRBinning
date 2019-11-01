@@ -2,4 +2,5 @@
 
 S3method(plot,VariableBinningS3)
 S3method(predict,VariableBinningS3)
+export(variableSummary)
 export(weightOfEvidence)
