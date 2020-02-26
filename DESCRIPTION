@@ -13,6 +13,5 @@ LazyData: true
 Depends:
 	dplyr (>= 0.7.4),
 	ggplot2 (>= 2.2.1),
-	dbplyr (>= 1.2.2)
+	glmnet (>= 2.0.18)
 RoxygenNote: 6.1.1
-
