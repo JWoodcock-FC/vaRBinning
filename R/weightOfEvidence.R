@@ -68,8 +68,6 @@ weightOfEvidence <- function(data, target, variable, cuts) {
 
     class(outObject) <-  "VariableBinningS3"
 
-    outObject[["Gini"]] <- giniOfBinning(outObject, df2)
-
     outObject
 
 }

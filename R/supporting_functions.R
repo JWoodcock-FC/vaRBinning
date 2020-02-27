@@ -34,10 +34,3 @@ vectorCuts <- function(df, cuts) {
     df
 
 }
-
-giniOfBinning <- function(obj, df) {
-
-    df$WOE <- predict(obj, df$variable)$WOE
-    2*glmnet:::auc(df$bad, df$WOE) - 1
-
-}
